@@ -1,0 +1,40 @@
+@media screen and (max-width:700px) {
+    .post-data {
+      float: none;
+      clear: both;
+      width: 90vw;
+    }
+  }
+  @media screen and (min-width:700px) {
+    .post-data {
+      float: left;
+      width: 23%;
+      min-width: 300px;
+    }
+  }
+
+ 
+.footer {
+    position: fixed;
+    height: 10vh;
+    background-color: #262626;
+    bottom: 0;
+    color: white;
+    width: 100%;
+}
+.blank-div {
+    height: 11vh;
+    float: none;
+    clear: both;
+}
+.post-data {
+   
+    height: 15rem;
+    float: left;
+    margin: 10px;
+}
+.breadcrumb {
+    width: 100vw;
+    margin-left: 0px;
+
+}
